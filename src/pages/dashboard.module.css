@@ -1,0 +1,21 @@
+.button-dashboard:hover {
+    animation-name: button-animation;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-animation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
+}
+
+.button-dashboard {
+    cursor: pointer;
+}
