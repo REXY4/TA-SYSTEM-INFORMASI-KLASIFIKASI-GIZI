@@ -70,7 +70,7 @@ const LayoutPage: React.FC<SEOProps> = ({ children, ...rest }) => {
   return (
     <div>
       <div>
-        <SEO title={''} res={rest} />
+        <SEO title={''} res={rest} children={undefined} />
         <ThemeProvider theme={themes(theme, dir)}>
           <div>
             <SimpleLayout />
