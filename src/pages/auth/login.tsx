@@ -24,7 +24,7 @@ export default function Login() {
   }
 
   useEffect(() => {
-    if (isLogin) {
+    if (sessionStorage.getItem('_token')) {
       router.replace("/dashboard");
     }
   }, [isLogin]);
